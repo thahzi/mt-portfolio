@@ -1,0 +1,182 @@
+:root{
+    --bgColor : #2b2c30;
+    --subBgColor : #494b50;
+    --spanColor : #48b4af;
+    --fontMainColor : #ffffff;
+    --fontSubColor : #a1a3ad;
+    --mainFont : 1.4rem;
+    --subFont : 1rem;
+    --smallFont : .9rem;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--bgColor);
+    color: var(--fontMainColor);    
+}
+
+/* nav bar */
+
+.navbar{
+    background-color:var(--subBgColor); 
+    z-index: 50; 
+}
+.navbar-brand img{
+    
+}
+.navbar-nav a{
+    color: var(--fontSubColor);
+}
+
+/* hero section */
+
+.hero-sec{
+    /* justify-content: center;
+    align-items: center; */
+    height: 80vh;
+    display: flex;
+    
+}
+.card .img{
+    width: 100%;
+}
+.img img{
+    width: 50%;
+    justify-content: center;
+}
+
+/* what i do */
+
+.whatido .card{
+    cursor: pointer;
+}
+.whatido .card:hover{
+    
+}
+
+/* about me */
+
+.pera p{
+    font-size:20px;
+    
+}
+.link-icons{
+    gap: 25px;
+}
+.link-icons a{
+    color: var(--bgColor);
+    background-color: var(--fontSubColor);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.link-icons a:hover{
+    color: #ffffff;
+    background-color: #48b4af;
+}
+
+/* gallary */
+
+.gallary{
+    
+}
+
+/* .gal-img1{
+    background-image: url('./pics/hero-removebg-preview.png');
+    
+} */
+
+.gal-img2{
+    background-image: url("./pics/photo.jpg");
+}
+
+.gal-img3{
+    background-image:url("./pics/gal-pic2.png");
+}
+
+.gal-img4{
+    background-image: url('./pics/hero-removebg-preview.png');
+}
+
+/* .gal-img5{
+    background-image: url('./pics/hero-removebg-preview.png');
+
+} */
+
+.gal{
+    background-position: center;
+    background-size: cover;
+    width:300px;
+    height: 430px;
+    cursor: pointer;
+}
+
+.arrow{
+    font-size: 30px;
+    top: 45%;
+    cursor: pointer;
+    background-color: #494b5049;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+
+.details{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 490px;
+    
+    font-size: 1.4rem;
+}
+
+.details .fw-bolder{
+    color: #041850;
+    font-weight: bolder;
+    
+    
+}
+
+
+
+
+
+
+
+/* navigation bar */
+
+.navi-bar{
+    width: 100%;
+    
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    background-color:var(--spanColor);
+    border-radius: 30px;
+    padding: 5px;
+}
+.icons a{
+    color: #ffffff;
+    width: 15px;
+    font-size: 18px;
+}
+.qqq{
+    display: none;
+}

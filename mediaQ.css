@@ -1,0 +1,45 @@
+@media (max-width:750px) {
+
+    body{
+        font-size: var(--smallFont);
+    }
+    p{
+        font-size: var(--smallFont);
+    }
+    .hero-sec{
+        margin-top: 50px;
+    }
+    .hero-img img , .hero-del{
+        margin-top: -100px;
+    }
+    .whatido-cards{
+        gap:15px;
+    }
+    .img img{
+        width: 25%;
+    }
+    .link-icons {
+        gap: 7px;
+    }
+    .qqq{
+        display: flex;
+    }
+    .gal{
+        width: 160px;
+        height: 205px;
+    }
+    .gal0{
+        display: none;
+    }
+    .arrow{
+        font-size: 25px;
+        top: 75px;
+        height: 40px;
+        width: 40px;
+    }
+    .details{
+        height: 250px;
+        font-size: .8rem;
+    }
+
+}
